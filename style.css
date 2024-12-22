@@ -1,34 +1,37 @@
 body{
-    background-color: black;
+    background-color: aqua;
 }
 h1{
-    color:aqua;
-}
-input[type="text"]{
-    background-color: bisque;
-}
-ul>li{
-     color:red;
-}
-ul+p{
-    color: brown;
+    color: red;
 }
 li:hover{
-    color: aqua;
+    color:white;
+}
+p::first-letter{
+    color:pink;
+}
+input[type="text"]{
+    background-color: green;
+}
+ul > li{
+    color:yellow;
+}
+p{
+    color:blueviolet;
 }
 li:nth-child(4){
-    background-color: aliceblue;
+    background-color:beige;
 }
 p:not(:first-of-type){
-    color: white;
+    text-decoration: overline;
 }
 li::before{
-    content: "@"
+    content: @;
 }
 li::after{
-    content: "!";
+    content:!;
 }
 p::first-letter{
     font-size: 200%;
-    color: aquamarine;
+    color:brown;
 }
